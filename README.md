@@ -1,11 +1,11 @@
 # Lockout-Ticket-Simulation
-## 🎫 Incident Response: Account Lockout (User Error Scenario)
+## Incident Response: Account Lockout (User Error Scenario)
 
 During testing, I simulated a common real-world help desk issue where a user account becomes locked due to repeated incorrect password attempts.
 
 ---
 
-### 🧾 Ticket Summary
+### Ticket Summary
 - **Issue:** User unable to log in due to account lockout  
 - **User:** Carlos Borges  
 - **System:** Domain-joined Windows 10 machine  
@@ -16,7 +16,7 @@ During testing, I simulated a common real-world help desk issue where a user acc
 
 ---
 
-### 🚨 What Happened
+### What Happened
 The user attempted to log in multiple times with an incorrect password, which triggered the domain’s account lockout policy.
 
 After **5 failed login attempts**, the account was automatically locked.
@@ -30,7 +30,7 @@ This generated:
 
 ---
 
-### 🔍 Investigation Steps
+### Investigation Steps
 
 1. Checked login failures in Splunk:
 2. Observed:
@@ -50,7 +50,7 @@ This generated:
 
 ---
 
-### 🛠️ Remediation Actions
+### Remediation Actions
 
 - Unlocked the user account in Active Directory  
 - Confirmed the user’s correct password  
@@ -61,7 +61,7 @@ This generated:
 
 ---
 
-### 🧠 What I Learned
+### What I Learned
 
 - Not all account lockouts indicate malicious activity  
 - How to differentiate:
@@ -71,7 +71,7 @@ This generated:
 
 ---
 
-### ✅ Outcome
+### Outcome
 
 - User regained access to their account  
 - No security threat identified  
@@ -81,7 +81,7 @@ This generated:
 
 ---
 
-### 🔗 How This Connects to the Lab
+### How This Connects to the Lab
 
 This scenario demonstrates:
 - Active Directory account management  
